@@ -68,7 +68,7 @@ axios.get("http://customers-service-pearl.vercel.app/customers/"+order.CustomerI
 
 .then(customer=>{
 
-axios.get("http://localhost:4545/books/"+order.BookID)
+axios.get("books-service.vercel.app/books/"+order.BookID)
 
 .then(book=>{
 
