@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "customers.js",  
+      "src": "orders.js",  
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "customers.js"  
+      "dest": "orders.js"  
     }
   ]
 }

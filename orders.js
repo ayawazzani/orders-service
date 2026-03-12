@@ -64,7 +64,7 @@ Order.findById(req.params.id)
 
 .then(order=>{
 
-axios.get("http://localhost:5555/customers/"+order.CustomerID)
+axios.get("http://customers-service-pearl.vercel.app/customers/"+order.CustomerID)
 
 .then(customer=>{
 
